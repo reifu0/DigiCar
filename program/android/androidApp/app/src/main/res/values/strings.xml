@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DigiCar Remote</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="throttle_description">Throttle</string>
+    <string name="steering_description">Steering</string>
+
+    <string name="status_disconnected">Not connected</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_connected_round_trip">Connected · round trip %1$d ms, worst %2$d ms</string>
+    <string name="status_connect_failed">Could not connect. Is the car switched on and in range?</string>
+    <string name="status_link_lost">Connection lost. The car may still be moving at its last speed!</string>
+    <string name="status_no_bluetooth">This device has no Bluetooth.</string>
+    <string name="status_permission_denied">The Bluetooth permission is needed to connect.</string>
+
+    <string name="pair_title">Car not paired</string>
+    <string name="pair_message">Switch the car on and pair with %1$s in Android\'s Bluetooth settings, then come back and tap Connect.</string>
+    <string name="pair_open_settings">Open settings</string>
+    <string name="choose_car_title">Choose a car</string>
+
+    <string name="readout">%1$s\nSteering %2$d°</string>
+    <string name="readout_stopped">Stopped</string>
+    <string name="readout_forward">Forward %1$d%%</string>
+    <string name="readout_reverse">Reverse %1$d%%</string>
+
+    <string name="trim">Trim %1$d°</string>
+    <string name="trim_left">◀</string>
+    <string name="trim_right">▶</string>
+    <string name="trim_left_description">Trim steering left</string>
+    <string name="trim_right_description">Trim steering right</string>
+</resources>
